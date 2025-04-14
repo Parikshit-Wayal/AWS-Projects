@@ -18,6 +18,7 @@
 - Created an **Application Load Balancer (ALB)**.
 - Set up a **Target Group** to manage backend EC2 instances.
 - Configured listeners on port 80 (HTTP) to forward traffic to the Target Group.
+- (Since I didn’t have an existing ELB, I created a new one while setting up the Auto Scaling Group, along with a new Target Group).
 
 ### 4. Configure Auto Scaling Group (ASG)
 - Used the Launch Template to configure an ASG.
@@ -34,6 +35,9 @@
 
 - Connected to two EC2 instances via **SSH using PowerShell**.
 - Manually applied CPU stress to simulate high load.
+- commands which are used for manual load.
+   - sudo yum install stress -y
+   - stress --cpu 8 --timeout 60
 -  ![](./Images/3Stress.png)
 - Observed that when CPU crossed threshold, **Auto Scaling launched a third instance** automatically.
 -   ![](./Images/4.png)
