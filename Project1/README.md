@@ -5,7 +5,7 @@
 ### 1. Create a Custom AMI
 - Launched an EC2 instance with a pre-installed web server and application (basic HTML template).
 - Configured the application and then created a **Custom AMI** from this instance to reuse for scaling.
-  ![](./images/1.png)
+  ![](./Images/archi.png)
 
 ### 2. Build a Launch Template
 - Created a **Launch Template** using the above AMI.
