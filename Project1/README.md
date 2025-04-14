@@ -40,10 +40,10 @@
    - sudo yum install stress -y
    - stress --cpu 8 --timeout 60
 -  ![](./Images/3Stress.png)
--  
+  
 - Observed that when CPU crossed threshold, **Auto Scaling launched a third instance** automatically.
 -   ![](./Images/4.png)
--   
+    
 - This showed that scaling policy works as expected!
 
 ---
