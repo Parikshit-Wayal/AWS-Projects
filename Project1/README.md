@@ -10,6 +10,8 @@
 ### 2. Build a Launch Template
 - Created a **Launch Template** using the above AMI.
 - This template includes instance type, AMI ID, key pair, security groups, and other settings needed for launching new instances.
+    ![](./Images/LaunchTemplate.png)
+
 
 ### 3. Set Up Elastic Load Balancer (ELB)
 - Created an **Application Load Balancer (ALB)**.
@@ -19,8 +21,11 @@
 ### 4. Configure Auto Scaling Group (ASG)
 - Used the Launch Template to configure an ASG.
 - Set the **Desired Capacity to 2**, **Maximum to 3**, and **Minimum to 1**.
+    ![](./Images/desire.png)
 - Registered the Target Group so new instances are automatically added.
 - Enabled **Instance Refresh** for zero-downtime updates.
+-   ![](./Images/StartInstanceRefresh.png)
+
 
 ---
 
