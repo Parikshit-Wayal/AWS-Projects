@@ -24,6 +24,7 @@
 - Used the Launch Template to configure an ASG.
 - Set the **Desired Capacity to 2**, **Maximum to 3**, and **Minimum to 1**.
     ![](./Images/desire.png)
+  
 - Registered the Target Group so new instances are automatically added.
 - Enabled **Instance Refresh** for zero-downtime updates.
 -   ![](./Images/StartInstanceRefresh.png)
@@ -39,8 +40,10 @@
    - sudo yum install stress -y
    - stress --cpu 8 --timeout 60
 -  ![](./Images/3Stress.png)
+-  
 - Observed that when CPU crossed threshold, **Auto Scaling launched a third instance** automatically.
 -   ![](./Images/4.png)
+-   
 - This showed that scaling policy works as expected!
 
 ---
@@ -49,11 +52,16 @@
 
 To simulate a real-world update (e.g., app or config change):
   ![](./Images/2.png)
+  
 1. **Updated Launch Template** with new version (e.g., changed HTML content).
 2. **Triggered Instance Refresh** with **50% batch size**.
-3. AWS gracefully terminated 1 instance and launched a new one using updated template.
-4. After replacement, reloaded the browser — the **new app version was live** without any downtime.
-     ![](./Images/final.png)
+     ![](./Images/50%down.png)
+   
+4. AWS gracefully terminated 1 instance and launched a new one using updated template.
+   ![](./images/img1.png)
+   
+6. After replacement, reloaded the browser — the **new app version was live** without any downtime.
+     ![](./Images/newRunning.png)
 
 
 ---
@@ -63,17 +71,17 @@ To simulate a real-world update (e.g., app or config change):
 - Launch Templates and AMIs make deployments consistent and reusable.
 - Auto Scaling ensures high availability and performance during traffic spikes.
 - Instance Refresh enables rolling updates without disturbing running apps.
-- Combining ELB, ASG, and monitoring offers robust cloud-native architecture.
 
 ---
 
 ## 🧰 Tools Used
 
 - AWS EC2
+- Ami and Template
 - AWS Load Balancer
 - Auto Scaling Group
 - PowerShell SSH
 - Stress Testing via CPU Load
-- Markdown for documentation
+  
 
 ---
