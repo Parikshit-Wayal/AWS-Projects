@@ -27,7 +27,7 @@
   
 - Registered the Target Group so new instances are automatically added.
 - Enabled **Instance Refresh** for zero-downtime updates.
--   ![](./Images/StartInstanceRefresh.png)
+    ![](./Images/StartInstanceRefresh.png)
 
 
 ---
@@ -39,10 +39,10 @@
 - commands which are used for manual load.
    - sudo yum install stress -y
    - stress --cpu 8 --timeout 60
--  ![](./Images/3Stress.png)
+   ![](./Images/3Stress.png)
   
 - Observed that when CPU crossed threshold, **Auto Scaling launched a third instance** automatically.
--   ![](./Images/4.png)
+   ![](./Images/4.png)
     
 - This showed that scaling policy works as expected!
 
