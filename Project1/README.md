@@ -3,7 +3,8 @@
 ## 🔧 Step-by-Step Setup
 
 ### 1. Create a Custom AMI
-- Launched an EC2 instance with a pre-installed web server and application (basic HTML template).
+- Launched an EC2 instance with a pre-installed web server and application.
+-  (i used basic HTML template) for testing,  it can be Full configured WebApplication.
 - Configured the application and then created a **Custom AMI** from this instance to reuse for scaling.
   ![](./Images/archi.png)
 
@@ -33,7 +34,9 @@
 
 - Connected to two EC2 instances via **SSH using PowerShell**.
 - Manually applied CPU stress to simulate high load.
+-  ![](./Images/3Stress.png)
 - Observed that when CPU crossed threshold, **Auto Scaling launched a third instance** automatically.
+-   ![](./Images/4.png)
 - This showed that scaling policy works as expected!
 
 ---
@@ -41,19 +44,13 @@
 ## 🔁 Instance Refresh for Smooth Updates
 
 To simulate a real-world update (e.g., app or config change):
-
+  ![](./Images/2.png)
 1. **Updated Launch Template** with new version (e.g., changed HTML content).
 2. **Triggered Instance Refresh** with **50% batch size**.
 3. AWS gracefully terminated 1 instance and launched a new one using updated template.
 4. After replacement, reloaded the browser — the **new app version was live** without any downtime.
+     ![](./Images/final.png)
 
----
-
-## ✅ Final Outcome
-
-- Web application scaled based on load automatically.
-- Instance Refresh allowed safe updates without service interruption.
-- Real-time, hands-on understanding of scaling, updating, and AWS orchestration.
 
 ---
 
