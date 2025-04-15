@@ -1,3 +1,3 @@
-#🚀 Accelerating Static Content Delivery Using CloudFront + S3 ⚡️
+# 🚀 Accelerating Static Content Delivery Using CloudFront + S3 ⚡️
 
 
