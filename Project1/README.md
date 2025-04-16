@@ -37,8 +37,10 @@
 - Connected to two EC2 instances via **SSH using PowerShell**.
 - Manually applied CPU stress to simulate high load.
 - commands which are used for manual load.
-   - sudo yum install stress -y
-   - stress --cpu 8 --timeout 60
+  <br>
+  ```sudo yum install stress -y```
+  <br>
+  ```stress --cpu 8 --timeout 60 ```
    ![](./Images/3Stress.png)
   
 - Observed that when CPU crossed threshold, **Auto Scaling launched a third instance** automatically.
