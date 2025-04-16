@@ -1,7 +1,7 @@
 # ☁️ Optimizing Static File Delivery with Amazon S3 + CloudFront
--
--
--
+
+
+
 ``` ##This project demonstrates how to reduce latency for delivering static files (images, videos, files) by integrating **Amazon S3** with **CloudFront CDN**.```
     ![](./images/archi.png)
 
