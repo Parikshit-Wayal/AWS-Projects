@@ -17,7 +17,7 @@
 🎯 While learning IAM, I performed this hands-on activity to understand how **user, group, and permission management** works in AWS.
 
 <p align="center">
-  <img src="./Images/archi.png" width="500"/>
+  <img src="./Images/archi.png" height="400" width="750"/>
 </p>
 
 ---
