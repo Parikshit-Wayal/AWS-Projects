@@ -6,14 +6,15 @@
 </table>
 
 
-**AWS IAM (Identity and Access Management)** is a service that helps you securely control access to AWS services and resources. With IAM, you can manage users, groups, roles, and permissions within your AWS account. It allows you to define who can access which AWS resources and what actions they can perform, ensuring security and compliance.
+
+   <td><h3 align="center">**AWS IAM (Identity and Access Management)** is a service that helps you securely control access to AWS services and resources. With IAM, you can manage users, groups, roles, and permissions within your AWS account. It allows you to define who can access which AWS resources and what actions they can perform, ensuring security and compliance.</h3></td>
 
 ---
 ## ⚠️**Basically, while learning IAM, I performed this practical to better understand how user, group, and permission management works in AWS.**
  ![](./Images/archi.png)
 
 ---
-
+<br>
 <br>
 
 ## 1. IAM USER CREATION WITH S3 FULL ACCESS
