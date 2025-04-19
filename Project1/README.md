@@ -9,7 +9,7 @@
 - 🛠️ After configuring the application, created a **Custom AMI** from the instance to reuse for scaling or quick deployment.
 
 <p align="center">
-  <img src="./Images/archi.png" alt="Custom AMI Architecture" width="80%" />
+  <img src="./Images/archi.png" alt="Custom AMI Architecture" height="450" width="35%" />
 </p>
 
 
