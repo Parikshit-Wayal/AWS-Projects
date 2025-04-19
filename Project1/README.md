@@ -2,11 +2,16 @@
 
 ## 🔧 Step-by-Step Setup
 
-### 1. Create a Custom AMI
-- Launched an EC2 instance with a pre-installed web server and application.
--  (i used basic HTML template) for testing,  it can be Full configured WebApplication.
-- Configured the application and then created a **Custom AMI** from this instance to reuse for scaling.
-  ![](./Images/archi.png)
+### 1️⃣ Create a Custom AMI
+
+- 🚀 Launched an EC2 instance with a pre-installed web server and application.
+- 🧪 Used a **basic HTML template** for testing (but it can be a fully configured production-grade web app).
+- 🛠️ After configuring the application, created a **Custom AMI** from the instance to reuse for scaling or quick deployment.
+
+<p align="center">
+  <img src="./Images/archi.png" alt="Custom AMI Architecture" width="80%" />
+</p>
+
 
 ### 2. Build a Launch Template
 - Created a **Launch Template** using the above AMI.
@@ -57,13 +62,13 @@ To simulate a real-world update (e.g., app or config change):
   
 1. **Updated Launch Template** with new version (e.g., changed HTML content).
 2. **Triggered Instance Refresh** with **50% batch size**.
-     ![](./Images/50%down.png)
+  ![](./Images/50%down.png)
    
 4. AWS gracefully terminated 1 instance and launched a new one using updated template.
-   ![](./images/img1.png)
+  ![](./images/img1.png)
    
 6. After replacement, reloaded the browser — the **new app version was live** without any downtime.
-     ![](./Images/newRunning.png)
+  ![](./Images/newRunning.png)
 
 
 ---
