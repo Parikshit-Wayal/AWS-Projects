@@ -65,10 +65,10 @@ To simulate a real-world update (e.g., app or config change):
   ![](./Images/50%down.png)
    
 4. AWS gracefully terminated 1 instance and launched a new one using updated template.
-  ![](./images/img1.png)
+  ![](./Images/newRunning.png)
    
 6. After replacement, reloaded the browser — the **new app version was live** without any downtime.
-  ![](./Images/newRunning.png)
+  ![](./Images/final.png)
 
 
 ---
