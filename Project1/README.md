@@ -64,7 +64,6 @@ To simulate a real-world update (e.g., app or config change):
 2. **Triggered Instance Refresh** with **50% batch size**.
   ![](./Images/StartInstanceRefresh.png)
 <h1 align="center">↓</h1>
-<h1 align="center">↓</h1>
 
   ![](./Images/down.png)
    
