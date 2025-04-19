@@ -62,7 +62,7 @@ To simulate a real-world update (e.g., app or config change):
   
 1. **Updated Launch Template** with new version (e.g., changed HTML content).
 2. **Triggered Instance Refresh** with **50% batch size**.
-  ![](./Images/50%down.png)
+  ![](./Images/down.png)
    
 4. AWS gracefully terminated 1 instance and launched a new one using updated template.
   ![](./Images/newRunning.png)
