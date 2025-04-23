@@ -1,5 +1,5 @@
 # AWS-Projects
-
+## 🔐I've shared the full process — go through it, and you'll see you can do it too!
  1. Project1: Autoscalling with Instance Refresh
  2. Project2: Optimizing Static File Delivery with Amazon S3 + CloudFront
  3. Project3: PHP Script to Upload to S3, Serve via CloudFront, and Save to RDS
