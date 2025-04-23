@@ -6,6 +6,7 @@ The system integrates with:
 - 🧾 **Amazon RDS** for metadata  
 - 🚀 **CloudFront** for fast, low-latency content delivery  
 
+
 > 💡 This hands-on practical helped me deeply understand AWS service integration and real-time file handling using PHP.
  ![](./Images/archi.png)
 
@@ -34,9 +35,7 @@ The system integrates with:
 
 ## 🪣 4. Creating an S3 Bucket for Image Storage
 - Created an S3 bucket: `cloudfront-15-4`
-  
-   ![](./Images/bucket1.png)
-
+     ![](./Images/bucket1.png)
 
 ---
 
