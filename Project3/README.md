@@ -79,10 +79,10 @@ use Aws\S3\S3Client;
 $s3Client = new S3Client([
     'version' => 'latest',
     'region'  => 'ap-southeast-2',
-    // 'credentials' => [
-    //     'key'    => ' AKIAR3KPMSXLXA5H ',
-    //     'secret' => ' yH0f0bFXWZYubCWGnbqZuam1h2H2bXov'
-    // ]
+    'credentials' => [
+         'key'    => ' AKIAR3KPMSXLXA5H ',
+         'secret' => ' yH0f0bFXWZYubCWGnbqZuam1h2H2bXov'
+     ]
 ]);
 
 // 📥 Check if form was submitted
