@@ -34,6 +34,7 @@ The system integrates with:
 
 ## 🪣 4. Creating an S3 Bucket for Image Storage
 - Created an S3 bucket: `cloudfront-15-4`
+  
    ![](./Images/bucket1.png)
 
 
@@ -41,7 +42,8 @@ The system integrates with:
 
 ## 🌐 5. Setting Up CloudFront for CDN
 - Created a **CloudFront distribution** with the S3 bucket as the origin
- ![](../Project2/Images/cf2.png)
+  
+![](../Project2/images/cf2.png)
 
 ---
 
