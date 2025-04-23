@@ -7,11 +7,13 @@ The system integrates with:
 - 🚀 **CloudFront** for fast, low-latency content delivery  
 
 > 💡 This hands-on practical helped me deeply understand AWS service integration and real-time file handling using PHP.
+ ![](./Images/archi.png)
 
 ---
 
 ## 🧱 1. Installing LEMP Stack on EC2
 - Installed **Nginx**, **MySQL**, and **PHP** on an EC2 Linux instance
+ ![](./Images/downloadLEMP.png)
 
 ---
 
