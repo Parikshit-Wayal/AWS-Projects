@@ -7,8 +7,12 @@
 <br>
 
 
-Recently, I set up a WordPress instance manually on an **EC2 server**. Here's the process I followed:
+<p align="center">
+  Recently, I set up a WordPress instance manually on an <strong>EC2 server</strong>. Here's the process I followed:
+</p>
 
+<br>
+---
 ## 📥 Downloaded WordPress
 
 ```bash
