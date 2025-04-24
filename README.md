@@ -4,5 +4,6 @@
  2. Project2: Optimizing Static File Delivery with Amazon S3 + CloudFront
  3. Project3: PHP Script to Upload to S3, Serve via CloudFront, and Save to RDS
  4. Project4: 🔐 Exploring AWS IAM – Hands-On Experience! 💻☁️
+ 5. Project5: 🚀 Deploying WordPress on AWS: EC2 vs Lightsail Experience
 
 
