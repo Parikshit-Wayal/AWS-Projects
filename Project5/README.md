@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td><img src="images/pic.png" alt="WordPress Logo" width="120"></td>
-    <td><h1>🚀 Deploying WordPress on AWS: EC2 vs Lightsail Experience</h1></td>
+    <td><h2>🚀 Deploying WordPress on AWS: EC2 vs Lightsail Experience</h2></td>
   </tr>
 </table>
 <br>
