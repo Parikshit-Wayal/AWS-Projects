@@ -1,6 +1,9 @@
 
 # AWS Serverless S3 Upload Notification using Lambda & SNS 📨
 
+<br>
+---
+
 In this mini-project, I built a **serverless notification system** that triggers an email alert every time a file is uploaded to an S3 bucket using **AWS Lambda** and **Amazon SNS**.
 
 ---
