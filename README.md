@@ -5,6 +5,6 @@
  3. Project3: PHP Script to Upload to S3, Serve via CloudFront, and Save to RDS
  4. Project4: 🔐 Exploring AWS IAM – Hands-On Experience! 💻☁️
  5. Project5: 🚀 Deploying WordPress on AWS: EC2 vs Lightsail Experience
- 6. Project6: Coming soon....
+ 6. Project6: S3 Upload Notification using LAMBDA & SNS 📩
 
 
