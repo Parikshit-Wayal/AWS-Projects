@@ -6,12 +6,15 @@
 In this mini-project, I built a **serverless notification system** that triggers an email alert every time a file is uploaded to an S3 bucket using **AWS Lambda** and **Amazon SNS**.
 
 ---
+https://github.com/Parikshit-Wayal/AWS-Projects/blob/main/Project6/images/addingTriiger.png
 
 ## 🔹 1. Created an S3 Bucket
 - **Bucket Name:** `img-15`  
 - Purpose: Storing uploaded files (e.g., images)
 
 ---
+<img width="1577" height="647" alt="addingTriiger" src="https://github.com/user-attachments/assets/d2ecd76a-42c0-409f-b523-d8b89e05a41e" />
+
 
 ## 🔹 2. Created a Lambda Function
 - **Function Name:** `myfunction`  
